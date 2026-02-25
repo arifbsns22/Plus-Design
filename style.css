@@ -2807,7 +2807,6 @@ figcaption {
   font-weight: var(--_typography---font-weight--medium);
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  padding-top: 30px;
 }
 
 .display-inline-block {
@@ -6566,6 +6565,7 @@ figcaption {
   }
 
   .home-header_component {
+    margin-bottom: -74px;
     max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
