@@ -110,12 +110,13 @@
         </div>
       </nav>
 
-
       <!-- ====================== CONTACT SECTION ====================== -->
       <div class="main-wrapper">
         <header class="section_contact" id="success">
           <div class="spacer-xlarge is-mobile-large"></div>
-          <div class="padding-section-medium is-mobile-big"></div>
+          <div
+            class="padding-section-medium is-tablet-smaller is-mobile-small"
+          ></div>
           <div class="padding-global">
             <div class="container-xxsmall">
               <div class="contact_form-wrap">
@@ -244,7 +245,9 @@
               </div>
             </div>
           </div>
-          <div class="padding-section-medium is-mobile-small"></div>
+          <div
+            class="padding-section-medium is-tablet-smaller is-mobile-small"
+          ></div>
         </header>
       </div>
 
@@ -311,11 +314,7 @@
               <div class="footer_legal-wrap">
                 <div class="footer_copyright">© 2025 +DESIGN</div>
                 <div class="footer_copyright">
-                  <a
-                    href=""
-                    target="_blank"
-                    class="footer_template-link"
-                  ></a>
+                  <a href="" target="_blank" class="footer_template-link"></a>
                 </div>
               </div>
             </div>
@@ -342,7 +341,6 @@
         fetch(form.action, {
           method: "POST",
           body: data,
-          
         })
           .then(() => {
             // no-cors never returns readable response
